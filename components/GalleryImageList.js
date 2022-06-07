@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import Image from 'next/Image';
+import Image from 'next/image';
 import { useMediaQuery, Box, CircularProgress } from '@mui/material';
 import { useRouter } from 'next/router';
 
