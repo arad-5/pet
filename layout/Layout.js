@@ -10,7 +10,6 @@ import { useEffect, useState } from 'react';
 
 const Layout = ({ children }) => {
     const [darkmode, setDarkmode] = useState(true);
-    console.log(useTheme());
 
     const darkTheme = createTheme({
         palette: {

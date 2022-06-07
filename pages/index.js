@@ -64,7 +64,7 @@ export default function Home() {
                         d='M299.243 314.787c-9.836-4.145-22.365-5.835-43.243-5.835V512h.128a193.988 193.988 0 0015.561-.624v-98.644c12.825-4.852 23.304-14.238 28.095-19.033 6.662-6.669 22.156-24.326 22.156-44.22 0-16.439-7.847-28.434-22.697-34.692z'
                     ></path>
                 </svg>
-            ),
+            ),  
         },
         {
             title: 'cat',
@@ -131,7 +131,7 @@ export default function Home() {
                         mb={1}
                         matches={matches}
                     >
-                        <PetBanner banner={banner} matches={matches} />
+                        <PetBanner banner={banner}/>
                     </Box>
                 ))}
             </Box>

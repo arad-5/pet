@@ -44,14 +44,14 @@ HideOnScroll.propTypes = {
 export default function Navbar(props) {
     const matches = useMediaQuery('(min-width:500px)');
     const { darkmode } = props;
-    console.log(useRouter());
+
     return (
         <>
             <CssBaseline />
             <HideOnScroll {...props}>
                 <AppBar
                     sx={{
-                        background: 'transparent',
+                        background: `rgba(${darkmode ? '18 ,18 ,18' :  '255 ,255 ,255'}, 70%)`,
                         backdropFilter: 'blur(20px)',
                         boxShadow: 0,
                     }}
